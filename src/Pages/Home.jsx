@@ -12,15 +12,15 @@ import ContactUs from './ContactUs'
 function Home() {
   return (
     <div>
-        <Nav />
-        <Slider />
-        <Blog />
-        <Videobox />
-        <Features />
-        <Services />
-        <Location />
-        <ContactUs/>
-        <Footer />
+      
+<section id="slider"><Slider /></section>
+<section id="services"><Services /></section>
+<section id="video"><Videobox/></section>
+<section id="blog"><Blog /></section>
+<section id="features"><Features /></section>
+<section id="location"><Location /></section>
+<section id="contactus"><ContactUs /></section>
+
     </div>
   )
 }
