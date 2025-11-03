@@ -41,7 +41,7 @@ export default function Features() {
   ];
 
   return (
-    <section className="py-20 bg-white dark:bg-black overflow-hidden">
+    <section className="py-20 bg-black overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -122,5 +122,6 @@ export default function Features() {
         </div>
       </div>
     </section>
+    
   );
 }
