@@ -12,7 +12,7 @@ import ContactUs from './ContactUs'
 function Home() {
   return (
     <div>
-      
+       <Nav/>
 <section id="slider"><Slider /></section>
 <section id="services"><Services /></section>
 <section id="video"><Videobox/></section>
@@ -20,7 +20,7 @@ function Home() {
 <section id="features"><Features /></section>
 <section id="location"><Location /></section>
 <section id="contactus"><ContactUs /></section>
-
+     <Footer />
     </div>
   )
 }
