@@ -5,6 +5,8 @@ import  Cycling from "../Images/Cycling.jpg";
 import Kickboxing from "../Images/Kickboxing.jpg";
 import  Zumba from "../Images/Zumba.jpg";
 
+import { motion } from "motion/react"
+
 const services = [
   {
     name: "STRENGTH" ,
@@ -33,10 +35,15 @@ const Services = () => {
 
   return (
     <div className=" bg-black text-white flex flex-col items-center justify-center p-10 gap-5 ">
- <div>      <h2 className="text-6xl font-bebas tracking-widest sm:text-lg md:text-xl lg:text-2xl xl:text-4xl  transition-transform duration-300 ease-in-out">
-            SERVICES
-          </h2></div>
-      <div className="flex gap-10 items-center max-w-3xl w-full">
+ < motion.div
+
+ ><h2 className="text-6xl font-bebas tracking-widest sm:text-lg md:text-xl lg:text-2xl xl:text-4xl  transition-transform duration-300 ease-in-out">SERVICES </h2></motion.div>
+      <motion.div
+      
+      initial= {{opacity:0, scale:0}}
+      whileInView={{opacity:1, scale:1}}
+      transition={{duration:1}}
+      className="flex gap-10 items-center max-w-3xl w-full">
         
         {/* 👉 Left Image Section */}
         <div className="relative w-1/2 h-[400px] overflow-hidden rounded-2xl">
@@ -67,7 +74,7 @@ const Services = () => {
             </div>
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

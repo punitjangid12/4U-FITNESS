@@ -11,10 +11,10 @@ function Location() {
               FIND
             </span>
             <br />
-            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-red-500  ">YOUR</span> <br />{" "}
-            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-red-500  ">NEAREST </span>
+            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-green-500  ">YOUR</span> <br />{" "}
+            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-yellow-500  ">NEAREST </span>
             <br />
-            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-red-500  ">GYM</span>
+            <span className="cursor-pointer transition-transform duration-1000 ease-in-out hover:translate-x-2 text-white  hover:text-purple-500  ">GYM</span>
           </h1>
         </div>
 

@@ -12,7 +12,7 @@ export default function Nav() {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black/25 shadow-lg">
+    <div className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-black/25 shadow-lg">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         
         {/* ---------- Logo ---------- */}
@@ -85,13 +85,14 @@ export default function Nav() {
         }`}
       >
         <div className="flex flex-col items-center justify-center h-full gap-8 text-white text-2xl font-semibold">
-           <a href="#slider">Home</a>
-           <a href="#services">Services</a>
-            <a href="#location">Location</a>
-             <a href="#contactus">Contact</a>
+           <a href="#slider" className="hover:text-red-500 transition-colors duration-300 hover:bg-black">Home</a>
+           <a href="#services" className="hover:text-red-500 transition-colors duration-300 hover:bg-black">Services</a>
+            <a href="#features" className="hover:text-red-500 transition-colors duration-300 hover:bg-black">Membership</a>
+            <a href="#location" className="hover:text-red-500 transition-colors duration-300 hover:bg-black">Location</a>
+             <a href="#contactus" className="hover:text-red-500 transition-colors duration-300 hover:bg-black">Contact</a>
           <Button label="Sign up" size="md" path="/Signup" />
         </div>
       </div>
-    </header>
+    </div>
   );
 }

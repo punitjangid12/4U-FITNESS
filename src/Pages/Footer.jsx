@@ -8,14 +8,14 @@ export default function Footer() {
         <div className="grid grid-cols-12">
           <div className="pb-6 col-span-full md:pb-0 md:col-span-6">
             <a
-              href="/"
+              href="#slider"
               className="flex justify-center space-x-3 md:justify-start"
             >
               <div className="flex items-center justify-center w-12 h-12 rounded-full">
                 <img
                   src="https://i.pinimg.com/736x/9a/81/08/9a8108eaea5ef0e4d8ad2c73f5691022.jpg"
                   className="rounded-full"
-                  alt=""
+                  alt="gym logo"
                 />
               </div>
               <h1 className="text-6xl font-extrabold mb-4 text-white ">
@@ -28,7 +28,7 @@ export default function Footer() {
             <ul>
               <li>
                 <a
-                  href="/"
+                  href="#location"
                   className="text-white hover:text-red-500 transition-all duration-300 tracking-widest"
                 >
                   Location
@@ -40,7 +40,7 @@ export default function Footer() {
                 onMouseLeave={() => setIsOpen(false)}
               >
                 <a
-                  href="/"
+                  href="#contactus"
                   className=" text-white hover:text-red-500 transition-colors duration-300 font-bebas tracking-widest"
                 >
                   Contactus
@@ -48,7 +48,7 @@ export default function Footer() {
 
                 {/* Dropdown popup */}
                 {isOpen && (
-                  <div className="absolute left-0 mt-2 p-4 bg-white border border-gray-200 rounded-xl shadow-lg z-10 w-40 text-black">
+                  <div className="absolute left-0 mt-2 p-4 bg-white border border-gray-200 rounded-xl shadow-lg z-10 w-40 text-black ">
                     <p className="text-lg">Mobile No:+91-5489239823</p>
                   </div>
                 )}
@@ -57,7 +57,7 @@ export default function Footer() {
               <li>
                 <div>
                   <a
-                    href="/"
+                    href=""
                     className="text-white hover:text-red-500 transition-colors duration-300 font-bebas tracking-widest  "
                   >
                     Aboutus
@@ -71,7 +71,7 @@ export default function Footer() {
               >
                 <a
                   href="/"
-                  className=" text-white hover:text-red-500 transition-colors duration-300 font-bebas tracking-widest"
+                  className=" text-white hover:text-red-500 transition-colors duration-300 font-bebas tracking-widest X-15"
                 >
                   Branchs
                 </a>
@@ -90,7 +90,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#features"
                   className="text-white hover:text-red-500 transition-colors duration-300 font-bebas tracking-widest "
                 >
                   Membership
@@ -189,7 +189,7 @@ export default function Footer() {
             <a
               href="/"
               title="GitHub"
-              className="flex items-center justify-center w-10 h-10 rounded-full bg-red-500 hover:bg-black "
+              className="flex items-center justify-center w-10 h-10 rounded-full bg-red-500 "
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

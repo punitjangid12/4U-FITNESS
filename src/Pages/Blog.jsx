@@ -8,7 +8,9 @@ function Blog() {
         Why You Need Exercises?
       </h2>
         {/* first */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center px-6 mb-10">
+      <div 
+      
+      className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center px-6 mb-10">
       
         <div className="w-full h-[250px] overflow-hidden rounded-xl">
           <img
@@ -31,7 +33,12 @@ function Blog() {
       </div>
      <p className='bg-white h-[2px] w-full'></p>
        {/* Second */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center px-6 mb-10 mt-3">
+      <div
+
+       initial={{ opacity: 0, Y: 100 }}
+      whileInView={{ opacity: 1, Y: 1 }}
+      transition={{ duration: 3 }}
+       className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center px-6 mb-10 mt-3">
         <div>
           <h3 className="text-2xl font-bold mb-3">❤️ 2. For Your Body</h3>
           <p className="text-gray-300 leading-relaxed">

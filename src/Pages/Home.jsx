@@ -20,7 +20,7 @@ function Home() {
 <section id="features"><Features /></section>
 <section id="location"><Location /></section>
 <section id="contactus"><ContactUs /></section>
-     <Footer />
+      <Footer />
     </div>
   )
 }

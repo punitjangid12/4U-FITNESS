@@ -1,12 +1,12 @@
 
 import React, {useState, useEffect} from "react";
   const sliderData = [
-   "https://images.unsplash.com/photo-1637666062717-1c6bcfa4a4df?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxneW18ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500",
-   "https://images.unsplash.com/photo-1734668486909-4637ecd66408?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zml0bmVzcyUyMDE2JTNBOXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
-   "https://plus.unsplash.com/premium_photo-1664299685813-eafae169c04a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zml0bmVzcyUyMDE2JTNBOXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
-   "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
-   "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
-   "https://images.unsplash.com/photo-1554284126-aa88f22d8b74?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGd5bXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500",
+   "https://i.pinimg.com/1200x/ee/7d/75/ee7d759e871fa468a35912420da6cd4b.jpg",
+   "https://i.pinimg.com/1200x/b0/91/3c/b0913c8ea93ac21f984334fae30fa6b3.jpg",
+   "https://i.pinimg.com/1200x/0f/8c/f2/0f8cf21973edd6cf054e64eb2c7796f3.jpg",
+   "https://i.pinimg.com/1200x/3a/67/58/3a6758c8c0013a0d520767fc185e8265.jpg",
+   "https://i.pinimg.com/736x/8b/95/49/8b954982f5f718fcd52b2eb2aa2f9254.jpg",
+   "https://i.pinimg.com/1200x/76/c7/6a/76c76a7a19d36104ad013fe959f5f8ef.jpg",
 
      
      
